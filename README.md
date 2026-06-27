@@ -97,8 +97,7 @@ the eval scripts — paths are at the top of each script.
 
 ## 3. Pretrained checkpoints
 
-Pretrained checkpoints and statistics are hosted on **Hugging Face**
-[**[link to be added]**](#). Download and place under `./checkpoints/`:
+Pretrained checkpoints and statistics are hosted on [**Hugging Face**](https://huggingface.co/niccoloperrone/FreqNO-DPS). Download and place under `./checkpoints/`:
 
 ```
 ./checkpoints/
