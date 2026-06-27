@@ -1,0 +1,17 @@
+*.pt
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.ckpt
+__pycache__/
+*.pyc
+logs/
+wandb/
+*.pth
+/checkpoints/
+/data/
+/runs/
+/results/
+/figures/
+/freqnodps/

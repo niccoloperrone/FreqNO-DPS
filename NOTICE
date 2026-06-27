@@ -1,0 +1,46 @@
+FreqNO-DPS
+Copyright (C) 2026 Niccolò Perrone, Fanny Lehmann, Stefania Fresca,
+Filippo Gatti.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3, or
+(at your option) any later version, as published by the Free Software
+Foundation. See the LICENSE file at the root of this repository.
+
+----------------------------------------------------------------------
+Third-party attributions
+----------------------------------------------------------------------
+
+Portions of this codebase (diffusion model, samplers, schedulers,
+denoising model, U-Net building blocks, trainer scaffolding, and
+related utilities) are derived from:
+
+  GenCFD
+  Copyright 2024 CAM Lab, ETH Zurich.
+  Licensed under the Apache License, Version 2.0.
+  https://github.com/camlab-ethz/GenCFD
+
+  swirl_dynamics
+  Copyright 2024 The swirl_dynamics Authors (Google LLC).
+  Licensed under the Apache License, Version 2.0.
+  https://github.com/google-research/swirl-dynamics
+
+These files retain their original Apache 2.0 headers; modifications
+made for FreqNO-DPS are noted in the file headers where applicable.
+Apache 2.0 is compatible with GPL-3.0 for the combined work.
+
+The MIFNO/ subdirectory is vendored from:
+
+  MIFNO (Multiple-Input Fourier Neural Operator)
+  Copyright 2025 Fanny Lehmann.
+  Licensed under the GNU General Public License v3.0.
+  https://github.com/lehmannfa/MIFNO
+
+  Reference: Lehmann, F., Gatti, F., Clouteau, D. (2025).
+  Multiple-Input Fourier Neural Operator (MIFNO) for source-dependent
+  3D elastodynamics. Journal of Computational Physics, 527, 113813.
+  https://doi.org/10.1016/j.jcp.2025.113813
+
+The MIFNO subdirectory is governed by its own LICENSE file at
+MIFNO/LICENSE. Because FreqNO-DPS imports MIFNO, the combined work is
+distributed under the GNU General Public License v3.0.
